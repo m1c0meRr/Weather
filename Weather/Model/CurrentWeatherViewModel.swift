@@ -19,7 +19,6 @@ enum WeatherEnum {
         struct Response {
             enum ResponseType {
                 case presentWeather(weather: WeatherResponse, locality: String)
-             //   case presentCity(cityWeather: CurrentModel, locality: String)
             }
         }
         

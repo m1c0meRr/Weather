@@ -78,12 +78,4 @@ class WeatherPresenter: WeatherPresentationLogic {
                                             maxMinTemp: maxMinTemp,
                                             dailyWeather: dailyCells, windLabel: windLabel)
     }
-    
-    //    private func headerCityViewModel(weatherModel: CurrentModel, windLabel: String, maxMinTemp: String, dailyCells: [CurrentWeatherViewModel.Daily], locality: String) -> CurrentWeatherViewModel{
-    //        return CurrentWeatherViewModel.init(locality: locality,
-    //                                            temp: setSign(temp: Int(weatherModel.main.temp)),
-    //                                            weatherDescription: weatherModel.weather.first?.description ?? "null",
-    //                                            maxMinTemp: maxMinTemp,
-    //                                            dailyWeather: dailyCells, windLabel: windLabel)
-    //    }
 }
