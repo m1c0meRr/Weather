@@ -147,7 +147,7 @@ class WeatherView: UIScrollView {
             self.pressureLabel.text = weatherModel.pressure
             self.humidityLabel.text = weatherModel.humidity
             self.dailyTableView.frame = CGRect(x: 10,
-                                               y: self.humidityLabel.frame.maxY + 30,
+                                               y: self.humidityLabel.frame.maxY + 15,
                                                width: self.frame.width - 20,
                                                height: DailyTableView.cellHeight * 8)
             self.dailyTableView.setWeather(cells: weatherModel.dailyWeather)
