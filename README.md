@@ -1,6 +1,8 @@
 # Weather
 Displays Live Weather Data with OpenWeather API:
- • the main screen displays: detailed information about the weather in the city (determined using geolocation) + view the weather for the upcoming week (7 days),
+
+ • the main screen displays: detailed information about the weather in the city (determined using geolocation) + view the weather for the upcoming week (7 days)
+ 
  • the additional screen displays: detailed information about the weather in any city that you can find using the search.
 
 ## The project uses: 
